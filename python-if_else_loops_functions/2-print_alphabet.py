@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-i = 1
-while i != 0:
-    i = 0
-print("abcdefghijklmnopqrstuvwxyz", end='')
+index = 97
+while index <= 122:
+    print(chr(index), end='')
+    index += 1
