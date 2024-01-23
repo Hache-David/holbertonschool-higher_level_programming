@@ -4,5 +4,5 @@ while index <= 122:
     if index == 113 or index == 101:
         index += 1
     else:
-        print(f"{chr(index)}", end='')
+        print("{}".format(chr(index)), end='')
         index += 1
