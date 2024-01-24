@@ -7,5 +7,5 @@ while int != 96:
         bool = False
     else:
         bool = True
-    print(chr(int) if bool is True else chr(int - 32), end='')
+    print("{}".format(chr(int) if bool is True else chr(int - 32)), end='')
     int -= 1
