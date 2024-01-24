@@ -3,7 +3,7 @@
 def pow(a, b):
     index = a
     if b == 0:
-        return 1
+        a = 1
     if b < 0:
         while b != 1:
             a = a / index
