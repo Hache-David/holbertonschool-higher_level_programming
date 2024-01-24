@@ -9,7 +9,7 @@ def pow(a, b):
         while b != 1:
             a = a / index
             b += 1
-    else:
+    if b > 1:
         while b != 1:
             a = a * index
             b -= 1
