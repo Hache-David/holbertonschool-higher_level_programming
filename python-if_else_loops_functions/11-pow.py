@@ -4,6 +4,7 @@ def pow(a, b):
     index = a
     if b == 0:
         a = 1
+        return a
     if b < 0:
         while b != 1:
             a = a / index
