@@ -1,3 +1,6 @@
 #!/usr/bin/python3
-for i in range(97, 123):
-    print("{}".format(chr(i)), end='')
+index = 97
+while index <= 122:
+    '''print(f"{chr(index)}", end='')'''
+    print("{}".format(chr(index)), end='')
+    index += 1

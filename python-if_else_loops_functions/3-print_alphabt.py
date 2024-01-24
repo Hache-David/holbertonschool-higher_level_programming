@@ -5,4 +5,5 @@ while index <= 122:
         index += 1
     else:
         print("{}".format(chr(index)), end='')
+        '''print(f"{chr(index)}", end='')'''
         index += 1
