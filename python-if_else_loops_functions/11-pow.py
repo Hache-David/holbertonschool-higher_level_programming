@@ -2,6 +2,8 @@
 
 def pow(a, b):
     index = a
+    if a == 0:
+        return a
     if b == 0:
         a = 1
         return a
