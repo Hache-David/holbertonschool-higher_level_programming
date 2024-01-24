@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 int = 122
-bool = True
+bool = False
 while int != 96:
     if bool is True:
         bool = False
