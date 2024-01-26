@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
-from sys import argv
+
 if __name__ == "__main__":
 
-
+    from sys import argv
     i = 1
     if len(argv) == 2:
         print("1 argument:")
