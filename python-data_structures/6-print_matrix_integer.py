@@ -5,7 +5,7 @@ def print_matrix_integer(matrix=[[]]):
     for ligne in matrix:
         taille = len(ligne) - 1
         for int in ligne:
-            print("{}".format(int), end="")
+            print("{:d}".format(int), end="")
             if int != ligne[taille]:
                 print(" ", end="")
         print()
