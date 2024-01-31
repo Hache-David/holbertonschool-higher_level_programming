@@ -6,7 +6,7 @@ def best_score(a_dictionary):
     if a_dictionary is None:
         return None
     for key in a_dictionary:
-        if a_dictionary[key] > index:
+        if abs(a_dictionary[key]) > index:
             index = a_dictionary[key]
             key_save = key
     return key_save
