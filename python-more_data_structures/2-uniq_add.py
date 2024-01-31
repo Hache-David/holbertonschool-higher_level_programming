@@ -1,9 +1,5 @@
 #!/usr/bin/python3
 
 def uniq_add(my_list=[]):
-    if len(my_list) == 0:
-        return 0
-    for int3 in my_list:
-        if my_list.count(int3) > 1:
-            my_list.remove(int3)
+    int3 = set(my_list)
     return sum(my_list)
