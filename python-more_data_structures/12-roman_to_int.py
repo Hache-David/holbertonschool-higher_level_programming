@@ -10,4 +10,7 @@ def roman_to_int(roman_string):
         for key in roman_dico:
             if roman_letter == key:
                 index += roman_dico[key]
-    return index
+    if index < 4000:
+        return index
+    else:
+        return 0
