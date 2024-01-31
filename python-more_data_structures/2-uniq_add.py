@@ -5,6 +5,4 @@ def uniq_add(my_list=[]):
     for int3 in my_list:
         if my_list.count(int3) > 1:
             my_list.remove(int3)
-    for int3 in my_list:
-        int2 += int3
-    return (int2)
+    return sum(my_list)
