@@ -5,5 +5,5 @@
 class Square:
     '''Object with size instance'''
 
-    def __init__(self, __size) -> None:
-        self.__size = 3
+    def __init__(self, size) -> None:
+        self.__size = size
