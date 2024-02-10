@@ -30,4 +30,4 @@ class Square:
                     print("#", end="")
                 print()
         else:
-            print(" ")
+            print("")
