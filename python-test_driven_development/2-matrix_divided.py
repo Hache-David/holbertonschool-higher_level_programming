@@ -4,9 +4,12 @@
 
 
 def matrix_divided(matrix, div):
+    '''core function'''
     new_matrix = [ligne[:] for ligne in matrix]
     len_first_line = len(matrix[0])
 
+    if matrix == []:
+        return matrix
     for ligne in matrix:
         if len(ligne) != len_first_line:
             raise TypeError("Each row of the matrix must have the same size")
