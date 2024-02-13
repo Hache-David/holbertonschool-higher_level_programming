@@ -16,13 +16,14 @@ class TestMaxInteger(unittest.TestCase):
         self.assertEqual(max_integer([1.1, 2.2, 3.3, 4.4]), 4.4)
 
     def test_is_none(self):
-        """test if is None"""
+        """test if argument is None"""
         self.assertIsNone(max_integer())
 
     def test_non_int(self):
-        """test if is not an int"""
+        """test if one argument is not an int"""
         self.assertRaises(TypeError, max_integer, ["Holberton", 3.14, 97, 8])
 
     def test_mixed_list(self):
-        """test mixed data types"""
+        """test with a list of mixed data types"""
         self.assertRaises(TypeError, max_integer, ["a", "b", 1])
+        
