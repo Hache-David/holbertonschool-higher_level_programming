@@ -5,12 +5,10 @@
 
 class Rectangle:
     '''Super rectangle'''
-    total_instance = 0
 
     def __init__(self, width=0, height=0) -> None:
         self.__width = width
         self.__height = height
-        Rectangle.total_instance += 3
 
     @property
     def width(self):
@@ -57,4 +55,4 @@ class Rectangle:
         return f'Rectangle({self.width}, {self.height})'
 
     def __del__(self):
-        print("Bye rectangle" + ("." * Rectangle.total_instance))
+        print("Bye rectangle...")
