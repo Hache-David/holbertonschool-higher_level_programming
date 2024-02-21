@@ -4,7 +4,7 @@
 
 class BaseGeometry:
     '''BaseGeometry'''
-    def __init__(self) -> None:
+    def __init__(self):
         pass
 
     def area(self):
