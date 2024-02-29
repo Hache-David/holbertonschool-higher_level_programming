@@ -8,7 +8,7 @@ def pascal_triangle(n):
     '''pascal_triangle'''
     new_list = [[1]]
     if n <= 0:
-        return new_list
+        return []
     for number in range(1, n):
         new_list2 = [1]
         for number2 in range(1, number):
