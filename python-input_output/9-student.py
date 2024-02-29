@@ -11,4 +11,5 @@ class Student:
         self.age = age
 
     def to_json(self):
+        '''return class to json'''
         return class_to_json(self)
